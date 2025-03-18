@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketovací Systém</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Školní Ticketovací Systém</h1>
+    </header>
+    <main class="container">
+        <section class="form-section">
+            <h2>Vytvořit nový ticket</h2>
+            <input type="text" id="ticketTitle" placeholder="Název problému">
+            <textarea id="ticketDescription" placeholder="Popis problému"></textarea>
+            <button onclick="createTicket()">Odeslat ticket</button>
+        </section>
+        
+        <section class="tickets-section">
+            <h2>Seznam ticketů</h2>
+            <div id="tickets"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ticketovací Systém</p>
+        <a href="https://discord.gg/tvuj-server" target="_blank">
+            <img src="/icons8-discord.svg" alt="Discord" class="discord-logo">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
