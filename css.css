@@ -63,9 +63,19 @@ footer {
     align-items: center;
     width: 100%;
     gap: 30px;
+    transition: 10s ease;
 }
 
 .status {
     font-weight: bold;
     color: #007bff;
+}
+
+.icons a:hover{
+    transform: scale(1.4);
+
+}
+
+.icons a{
+    transition: 1s ease;
 }
