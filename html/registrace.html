@@ -3,34 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fix IT - Login</title>
+    <title>Fix IT - Registrace</title>
     <link rel="stylesheet" href="/styles/index.css">
     <script src="/js/authsystem.js"></script>
 </head>
 <body>
     <header>
         <h1>Fix IT</h1>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Hlavní Stránka</a></li>
-                <li><a href="/html/aboutus.html">O Nás</a></li>
-                <li><a href="/html/support.html">Podpora</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <div class="container">
-            <div class="form-box">
-                <h2 id="form-title">Login</h2>
-                    <form id="auth-form">
-                        <input type="text" id="username" placeholder="Uživatelské jméno" required>
-                        <input type="password" id="password" placeholder="Heslo" required>
-                        <button type="submit">Přihlásit</button>
-                    </form>
-                <p id="toggle-form">Nemáte účet? <a href="/html/registrace.html">Registrace</a></p>
-            </div>
+    <div class="container">
+        <div class="form-box">
+            <h2>Registrace</h2>
+            <form id="register-form">
+                <input type="text" id="username" placeholder="Uživatelské jméno" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Heslo" required>
+                <button type="submit">Registrovat</button>
+            </form>
+            <p>Máte účet? <a href="/index.html">Přihlásit</a></p>
         </div>
-    </main>
+    </div>
     <footer>
         <p>&copy; 2025 Fix IT Ticketovací Systém</p>
         <div class="icons">
