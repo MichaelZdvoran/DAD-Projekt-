@@ -10,14 +10,30 @@
 <body>
     <header>
         <h1>Fix IT</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Hlavní Stránka</a></li>
+                <li><a href="/html/aboutus.html">O Nás</a></li>
+                <li><a href="/html/support.html">Podpora</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
         <div class="form-box">
             <h2>Registrace</h2>
             <form id="register-form">
-                <input type="text" id="username" placeholder="Uživatelské jméno" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="password" id="password" placeholder="Heslo" required>
+                <div class="input-container">
+                    <input type="username" id="username" placeholder="Uživatelské jméno" required>
+                    <span class="icon">🏷️</span>
+                </div>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <span class="icon">📧</span>
+                </div>
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="icon">🔒</span>
+                </div>
                 <button type="submit">Registrovat</button>
             </form>
             <p>Máte účet? <a href="/index.html">Přihlásit</a></p>

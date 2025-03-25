@@ -23,8 +23,14 @@
             <div class="form-box">
                 <h2 id="form-title">Login</h2>
                     <form id="auth-form">
-                        <input type="text" id="username" placeholder="Uživatelské jméno" required>
-                        <input type="password" id="password" placeholder="Heslo" required>
+                        <div class="input-container">
+                            <input type="email" id="email" placeholder="Email" required>
+                            <span class="icon">📧</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="password" id="password" placeholder="Password" required>
+                            <span class="icon">🔒</span>
+                        </div>
                         <button type="submit">Přihlásit</button>
                     </form>
                 <p id="toggle-form">Nemáte účet? <a href="/html/registrace.html">Registrace</a></p>
